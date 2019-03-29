@@ -17,5 +17,5 @@ npm i cron-clear-files
 ```javascript
 import cronClearFiles from 'cron-clear-files'
 
-cronClearFiles('0 0 0 * * ?', path, new Date().getTime() - 1000 * 3600 * 24) // Delete files created a day ago
+cronClearFiles('0 0 0 * * *', path, new Date().getTime() - 1000 * 3600 * 24) // Delete files created a day ago
 ```
