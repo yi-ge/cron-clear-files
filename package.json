@@ -1,0 +1,37 @@
+{
+  "name": "cron-clear-files",
+  "version": "0.0.1",
+  "description": "Clear expired files in the folder.",
+  "main": "bin/cron-clear-files.js",
+  "scripts": {
+    "build": "npx babel src/index.js --out-file bin/cron-clear-files.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-ge/cron-clear-files.git"
+  },
+  "keywords": [
+    "cron",
+    "clear",
+    "file"
+  ],
+  "author": "yi-ge <a@wyr.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yi-ge/cron-clear-files/issues"
+  },
+  "homepage": "https://github.com/yi-ge/cron-clear-files#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "node-schedule": "^1.3.2"
+  }
+}
